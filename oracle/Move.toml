@@ -14,9 +14,9 @@ subdir = "sui/mainnet/supra_holder"
 rev = "main"
 
 [dependencies.Pyth]
-git = "https://github.com/naviprotocol/pyth-crosschain.git"
+git = "https://github.com/Oni-giri/pyth-crosschain"
 subdir = "target_chains/sui/contracts"
-rev = "navi-forked"
+rev = "main"
 
 [addresses]
 sui = "0x02"
