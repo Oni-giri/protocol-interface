@@ -9,7 +9,7 @@ subdir = "crates/sui-framework/packages/sui-framework"
 rev = "mainnet"
 
 [dependencies.MoveStdlib]
-override = true,
+override = true
 git = "https://github.com/MystenLabs/sui.git"
 subdir = "crates/sui-framework/packages/move-stdlib"
 rev = "framework/mainnet"
