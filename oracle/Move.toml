@@ -8,12 +8,6 @@ git = "https://github.com/MystenLabs/sui.git"
 subdir = "crates/sui-framework/packages/sui-framework"
 rev = "mainnet"
 
-[dependencies.MoveStdlib]
-override = true
-git = "https://github.com/MystenLabs/sui.git"
-subdir = "crates/sui-framework/packages/move-stdlib"
-rev = "framework/mainnet"
-
 [dependencies.SupraOracle]
 git = "https://github.com/naviprotocol/dora-interface.git"
 subdir = "sui/mainnet/supra_holder"
