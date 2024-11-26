@@ -13,7 +13,7 @@ git = "https://github.com/naviprotocol/dora-interface.git"
 subdir = "sui/mainnet/supra_holder"
 rev = "main"
 
-[dependencies.Pyth]
+[dependencies.PythNavi]
 git = "https://github.com/Oni-giri/pyth-crosschain"
 subdir = "target_chains/sui/contracts"
 rev = "main"
